@@ -237,19 +237,14 @@ header nav ul li a:hover {
   border-radius: 4px;
 }
 .product_details .accordion-header:hover {
-  background: #eaeaea;
+  cursor: default;
 }
 .product_details .accordion-content {
   padding: 15px;
-  display: none; /* Hidden by default */
   overflow: hidden;
 }
 .product_details .accordion-content.active {
   display: block; /* Show content when active */
-}
-.product_details .arrow {
-  transition: transform 0.3s;
-  color: white;
 }
 
 footer {

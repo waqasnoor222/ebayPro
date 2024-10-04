@@ -276,12 +276,13 @@ header {
     }
     
     .accordion-header:hover {
-        background: #eaeaea;
+        // background: #eaeaea;
+        cursor: default;
     }
     
     .accordion-content {
         padding: 15px;
-        display: none; /* Hidden by default */
+        // display: none; /* Hidden by default */
         overflow: hidden;
     }
     
@@ -289,10 +290,10 @@ header {
         display: block; /* Show content when active */
     }
     
-    .arrow {
-        transition: transform 0.3s;
-        color: white;
-    }
+    // .arrow {
+    //     transition: transform 0.3s;
+    //     color: white;
+    // }
 }
 footer{
     background: #3798bf;
